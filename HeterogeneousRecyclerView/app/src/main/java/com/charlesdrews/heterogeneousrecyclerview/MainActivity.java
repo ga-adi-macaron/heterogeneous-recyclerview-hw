@@ -1,7 +1,9 @@
 package com.charlesdrews.heterogeneousrecyclerview;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.res.Configuration;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
@@ -24,6 +26,15 @@ public class MainActivity extends AppCompatActivity {
 
         // You can use the helper method below to generate data to pass to your Adapter, or
         // you can come up with your own data.
+
+
+        RecyclerView recyclerView = (RecyclerView)findViewById(R.id.football_recycler_view);
+        if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT){
+            recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        }else{
+            recyclerView.setLayoutManager(new GridLayoutManager(this,2));
+        }
+        recyclerView.setAdapter(new FootballRecyclerViewAdapter(generateSomeDataToDisplay()));
     }
 
     private List<BaseFootballObject> generateSomeDataToDisplay() {
