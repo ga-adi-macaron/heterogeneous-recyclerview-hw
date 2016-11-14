@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
 <android.support.v7.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -8,10 +15,11 @@
     android:layout_marginLeft="@dimen/card_horizontal_margin"
     android:layout_marginRight="@dimen/card_horizontal_margin"
     android:layout_marginStart="@dimen/card_horizontal_margin"
-    android:layout_marginTop="@dimen/card_vertical_margin"
+    android:layout_marginTop="16dp"
     app:cardBackgroundColor="@color/playerListEntryBackground"
     app:cardElevation="@dimen/card_resting_elevation"
-    app:contentPadding="@dimen/card_padding">
+    app:contentPadding="@dimen/card_padding"
+    android:layout_marginBottom="16dp">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -58,3 +66,4 @@
     </RelativeLayout>
 
 </android.support.v7.widget.CardView>
+</RelativeLayout>

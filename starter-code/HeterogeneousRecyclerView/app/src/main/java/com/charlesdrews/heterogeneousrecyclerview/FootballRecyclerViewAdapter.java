@@ -18,7 +18,7 @@ import java.util.List;
 
 public class FootballRecyclerViewAdapter extends RecyclerView.Adapter {
 
-    List<BaseFootballObject> mBaseFootballObjects;
+    private List<BaseFootballObject> mBaseFootballObjects;
 
     public FootballRecyclerViewAdapter(List<BaseFootballObject> listOfFutbol) {
         mBaseFootballObjects = listOfFutbol;
