@@ -15,30 +15,26 @@ import java.util.List;
  * Created by charlie on 11/14/16.
  */
 
+
 public class FootballRecyclerViewAdapter extends RecyclerView.Adapter {
 
     List<BaseFootballObject> mObjectList;
 
     public FootballRecyclerViewAdapter(List<BaseFootballObject> objectList) {
-
         mObjectList = objectList;
     }
 
-    @Override //- getting "does not override method error -_-
-    public int getItemVIewType(int position) {
-
-        if (mObjectList.get(position) instanceof Team) {
+    @Override
+    public int getItemViewType(int position) {
+        if(mObjectList.get(position) instanceof Team){
             return 2;
-
-        } else if (mObjectList.get(position) instanceof Player) {
+        } else if(mObjectList.get(position) instanceof Player){
             return 1;
-
         } return -1;
     }
 
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-
         RecyclerView.ViewHolder viewHolder = null;
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
         switch (viewType){
@@ -57,23 +53,20 @@ public class FootballRecyclerViewAdapter extends RecyclerView.Adapter {
 
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
-
         BaseFootballObject baseFootballObject = mObjectList.get(holder.getAdapterPosition());
-        switch (holder.getItemViewType()) {
-
+        switch (holder.getItemViewType()){
             case 2:
                 TeamViewHolder teamViewHolder = (TeamViewHolder) holder;
                 teamViewHolder.bindDataToViews((Team)mObjectList.get(position));
                 break;
-
             case 1:
                 PlayerViewHolder playerViewHolder = (PlayerViewHolder) holder;
                 playerViewHolder.bindDataToViews((Player)mObjectList.get(position));
                 break;
-
             default:break;
         }
     }
+
 
     @Override
     public int getItemCount() {

@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Create and add some players
         // Copy top 2 players in fantasy stats at each position from http://fantasy.nfl.com/research/rankings
-        list.add(new Player("Cam", "Newton", "Jaguars", "QB"));
+        list.add(new Player("Cam", "Newton", "Panthers", "QB"));
         list.add(new Player("Aaron", "Rodgers", "Packers", "QB"));
         list.add(new Player("David", "Johnson", "Cardinals", "RB"));
         list.add(new Player("Ezekiel", "Elliot", "Cowboys", "RB"));
