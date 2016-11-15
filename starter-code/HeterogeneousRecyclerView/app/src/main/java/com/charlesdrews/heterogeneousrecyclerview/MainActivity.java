@@ -24,6 +24,12 @@ public class MainActivity extends AppCompatActivity {
 
         // You can use the helper method below to generate data to pass to your Adapter, or
         // you can come up with your own data.
+
+        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.football_recycler_view);
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this,
+                LinearLayoutManager.VERTICAL, false);
+        recyclerView.setLayoutManager(linearLayoutManager);
+        recyclerView.setAdapter(new FootballRecyclerViewAdapter(generateSomeDataToDisplay()));
     }
 
     private List<BaseFootballObject> generateSomeDataToDisplay() {
