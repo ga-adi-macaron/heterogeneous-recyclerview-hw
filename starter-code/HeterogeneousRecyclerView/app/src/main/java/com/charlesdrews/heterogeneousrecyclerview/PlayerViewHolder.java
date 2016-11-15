@@ -27,4 +27,6 @@ public class PlayerViewHolder extends RecyclerView.ViewHolder {
         mPosition.setText(player.getPosition());
         mTeam.setText(player.getTeam());
     }
+
+
 }
