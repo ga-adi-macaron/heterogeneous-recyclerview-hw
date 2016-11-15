@@ -12,19 +12,19 @@ import com.charlesdrews.heterogeneousrecyclerview.model.Player;
 
 public class PlayerViewHolder extends RecyclerView.ViewHolder {
 
-    private TextView mName, mPosition, mTeam;
+    private TextView mName, mPosition1, mTeam;
 
     public PlayerViewHolder(View itemView) {
         super(itemView);
 
         mName = (TextView) itemView.findViewById(R.id.player_name);
-        mPosition = (TextView) itemView.findViewById(R.id.player_position);
+        mPosition1 = (TextView) itemView.findViewById(R.id.player_position);
         mTeam = (TextView) itemView.findViewById(R.id.player_team);
     }
 
     public void bindDataToViews(Player player) {
         mName.setText(player.getName());
-        mPosition.setText(player.getPosition());
+        mPosition1.setText(player.getPosition());
         mTeam.setText(player.getTeam());
     }
 }

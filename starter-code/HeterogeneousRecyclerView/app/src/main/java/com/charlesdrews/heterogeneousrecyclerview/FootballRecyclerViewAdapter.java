@@ -16,6 +16,76 @@ import java.util.List;
  */
 
 public class FootballRecyclerViewAdapter extends RecyclerView.Adapter {
+    List<BaseFootballObject> mFootballObjectList;
+
+    private final int TEAM = 0, PLAYER = 1;
+
+    public FootballRecyclerViewAdapter(List<BaseFootballObject> footballObjectList) {
+        mFootballObjectList = footballObjectList;
+    }
+
+    @Override
+    public int getItemViewType(int position) {
+        if (mFootballObjectList.get(position) instanceof Team) {
+            return TEAM;
+        } else if (mFootballObjectList.get(position) instanceof Player) {
+            return PLAYER;
+        }
+        return  -1;
+    }
+
+    @Override
+    public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        RecyclerView.ViewHolder viewHolder = null;
+        LayoutInflater inflater = LayoutInflater.from(parent.getContext());
+
+        switch (viewType) {
+            case PLAYER:
+                View player = inflater.inflate(R.layout.player_list_entry, parent, false);
+                viewHolder = new PlayerViewHolder(player);
+                break;
+            case TEAM:
+                View team = inflater.inflate(R.layout.team_list_entry, parent, false);
+                viewHolder = new TeamViewHolder(team);
+                break;
+            default:
+                //
+                break;
+        }
+        return viewHolder;
+    }
+
+    @Override
+    public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
+        switch (holder.getItemViewType()) {
+            case PLAYER:
+                PlayerViewHolder playerViewHolder = (PlayerViewHolder) holder;
+                configurePlayerViewHolder(playerViewHolder, position);
+                break;
+            case TEAM:
+                TeamViewHolder teamViewHolder = (TeamViewHolder) holder;
+                configureTeamViewHolder(teamViewHolder, position);
+                break;
+            default:
+                //
+                break;
+        }
+    }
+
+    @Override
+    public int getItemCount() {
+        return mFootballObjectList.size();
+    }
+
+    public void configurePlayerViewHolder(PlayerViewHolder playerViewHolder, int position) {
+        Player player = (Player) mFootballObjectList.get(position);
+        playerViewHolder.bindDataToViews(player);
+    }
+
+    public void configureTeamViewHolder(TeamViewHolder teamViewHolder, int position) {
+        Team team = (Team) mFootballObjectList.get(position);
+        teamViewHolder.bindDataToViews(team);
+    }
 
     // TODO: Implement this class to use multiple xml layouts in the same RecyclerView
 
