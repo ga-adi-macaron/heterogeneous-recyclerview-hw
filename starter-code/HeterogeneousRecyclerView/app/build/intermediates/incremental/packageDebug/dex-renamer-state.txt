@@ -1,0 +1,7 @@
+#Mon Nov 14 20:23:55 EST 2016
+base.0=/Users/jonlieblich/work/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_82d3d54a31269daabbf2a69c0100f3c25dc20299
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/jonlieblich/work/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9abba5d19331a1b53345222e3d1ab06cfdfa9129/classes.dex
+base.1=/Users/jonlieblich/work/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9abba5d19331a1b53345222e3d1ab06cfdfa9129
+file.0=/Users/jonlieblich/work/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_82d3d54a31269daabbf2a69c0100f3c25dc20299/classes.dex

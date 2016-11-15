@@ -21,7 +21,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // TODO: Set up the RecyclerView
-
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
+        RecyclerView combinedView = (RecyclerView)findViewById(R.id.football_recycler_view);
+        FootballRecyclerViewAdapter adapter = new FootballRecyclerViewAdapter(generateSomeDataToDisplay());
+        combinedView.setLayoutManager(layoutManager);
+        combinedView.setAdapter(adapter);
         // You can use the helper method below to generate data to pass to your Adapter, or
         // you can come up with your own data.
     }
