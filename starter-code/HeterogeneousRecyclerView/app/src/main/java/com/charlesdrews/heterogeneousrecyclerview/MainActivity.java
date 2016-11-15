@@ -15,15 +15,24 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+    FootballRecyclerViewAdapter mAdapter;
+    RecyclerView mRecyclerView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        List<BaseFootballObject> list = generateSomeDataToDisplay();
+
+
+        mRecyclerView = (RecyclerView) findViewById(R.id.football_recycler_view);
+        mRecyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
+        mAdapter = new FootballRecyclerViewAdapter(list);
+        mRecyclerView.setAdapter(mAdapter);
+
         // TODO: Set up the RecyclerView
 
-        // You can use the helper method below to generate data to pass to your Adapter, or
-        // you can come up with your own data.
     }
 
     private List<BaseFootballObject> generateSomeDataToDisplay() {
