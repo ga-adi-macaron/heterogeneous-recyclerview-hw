@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86_64,x86"
+    api-level="24"
+    density="420dpi"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="233731083595125"
+    token="-1348254550068774811"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="1792" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="337" />
+    <task
+        name="verifier"
+        duration="70" />
+
+    <artifact
+        location="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="233731083595125"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

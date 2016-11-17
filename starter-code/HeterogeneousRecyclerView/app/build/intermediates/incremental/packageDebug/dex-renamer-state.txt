@@ -1,0 +1,7 @@
+#Mon Nov 14 21:50:54 EST 2016
+base.0=/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_51ffb87430c7d78629ae8d6a5cee92ec74caea2b
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_344b8867e0c27b22d439cf532de41ef89a38bfb8/classes.dex
+base.1=/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_344b8867e0c27b22d439cf532de41ef89a38bfb8
+file.0=/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_51ffb87430c7d78629ae8d6a5cee92ec74caea2b/classes.dex

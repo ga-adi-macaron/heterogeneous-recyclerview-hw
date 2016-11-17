@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_cccddb31fae63d337678d9ec325c62a61db3903e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.0_67b8e130339118f3c0ec5204c888a10ccce833fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.0_ed515378c4ae1686f157be178364f19ab75fbf8f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.0_e860592509f4c89fef4b621e90cb10554ffe17d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.0_467f8d6c3d597c8982efb11933690256ab5e8c29/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_635f62a6aedd6760de9054a2bfee4f4804bddb9c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_b9ac27e7d5ae92ef066b20a319c1f2b363778935/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_f5def8075425671802a9a056b9c16fb32fc4dd14/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_88ec9a02d70e516f91fabb61a298181be4123368/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.0.0_9a8494ba3942f4c2dba8bebfbb03f5d610c4e229/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ds/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_3d54fc8716544dc59ba1a7c1bf74741ce8923657/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_7b52fbe3292e9f98ee9022e9b94ad7ff24fdc555/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_0d14364c3cb15da5dbb0db62b4f458f6c346b7e9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.0_d1c1cbc219a9d2b36247a186fdf146fffc2a89b4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4fa78bc03d29e6cc9a04a7ab3c4373cb6606074f">
+        <dex dex="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_51ffb87430c7d78629ae8d6a5cee92ec74caea2b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5655610d83b8fd888ae4852e04631bfee8147082">
+        <dex dex="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_344b8867e0c27b22d439cf532de41ef89a38bfb8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.0_e176e2518385b3968e5a9362a5621d33a10a0e37/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.0_789761ba82b4601af0525278a261403ae0de7e9e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/ds/adi stuff/W7_HW/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_6e89b8d4618de9fa4eb72a798f40b5ac163db5c6/classes.dex" />
+    </item>
+
+</items>
