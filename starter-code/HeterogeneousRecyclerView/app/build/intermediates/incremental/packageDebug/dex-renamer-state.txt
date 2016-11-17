@@ -1,0 +1,7 @@
+#Mon Nov 14 23:24:44 EST 2016
+base.0=/Users/student/ADI_Macaron/HWs/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_84d82aae6daf90edf874eb6780a2a0b256ef390f
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/student/ADI_Macaron/HWs/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_db12e44408e6605affdb16d549388eaf541d8e08/classes.dex
+base.1=/Users/student/ADI_Macaron/HWs/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_db12e44408e6605affdb16d549388eaf541d8e08
+file.0=/Users/student/ADI_Macaron/HWs/heterogeneous-recyclerview-hw/starter-code/HeterogeneousRecyclerView/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_84d82aae6daf90edf874eb6780a2a0b256ef390f/classes.dex
