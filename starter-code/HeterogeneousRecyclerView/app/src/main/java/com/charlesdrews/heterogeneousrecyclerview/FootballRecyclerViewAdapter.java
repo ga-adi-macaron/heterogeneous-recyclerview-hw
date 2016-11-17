@@ -15,7 +15,63 @@ import java.util.List;
  * Created by charlie on 11/14/16.
  */
 
+
 public class FootballRecyclerViewAdapter extends RecyclerView.Adapter {
+
+    List<BaseFootballObject> mObjectList;
+
+    public FootballRecyclerViewAdapter(List<BaseFootballObject> objectList) {
+        mObjectList = objectList;
+    }
+
+    @Override
+    public int getItemViewType(int position) {
+        if(mObjectList.get(position) instanceof Team){
+            return 2;
+        } else if(mObjectList.get(position) instanceof Player){
+            return 1;
+        } return -1;
+    }
+
+    @Override
+    public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        RecyclerView.ViewHolder viewHolder = null;
+        LayoutInflater inflater = LayoutInflater.from(parent.getContext());
+        switch (viewType){
+            case 2:
+                View team = inflater.inflate(R.layout.team_list_entry,parent,false);
+                viewHolder = new TeamViewHolder(team);
+                break;
+            case 1:
+                View player = inflater.inflate(R.layout.player_list_entry,parent,false);
+                viewHolder = new PlayerViewHolder(player);
+                break;
+            default:break;
+        }
+        return viewHolder;
+    }
+
+    @Override
+    public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
+        BaseFootballObject baseFootballObject = mObjectList.get(holder.getAdapterPosition());
+        switch (holder.getItemViewType()){
+            case 2:
+                TeamViewHolder teamViewHolder = (TeamViewHolder) holder;
+                teamViewHolder.bindDataToViews((Team)mObjectList.get(position));
+                break;
+            case 1:
+                PlayerViewHolder playerViewHolder = (PlayerViewHolder) holder;
+                playerViewHolder.bindDataToViews((Player)mObjectList.get(position));
+                break;
+            default:break;
+        }
+    }
+
+
+    @Override
+    public int getItemCount() {
+        return mObjectList.size();
+    }
 
     // TODO: Implement this class to use multiple xml layouts in the same RecyclerView
 
