@@ -15,10 +15,24 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+    RecyclerView mRecyclerView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+        mRecyclerView = (RecyclerView) findViewById(R.id.football_recycler_view);
+
+        LinearLayoutManager linearLayoutManager =
+                new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
+        mRecyclerView.setLayoutManager(linearLayoutManager);
+
+        List<BaseFootballObject> customObjects = new ArrayList<>();
+
+        mRecyclerView.setAdapter(new FootballRecyclerViewAdapter(customObjects));
+
 
         // TODO: Set up the RecyclerView
 
